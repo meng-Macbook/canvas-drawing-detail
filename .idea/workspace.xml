@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb81965b-9f84-47c7-a5d8-cd16ed9305f0" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/0203-1poly.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0203-2poly.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0203-3rect.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="0203-2poly.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="0203-2poly.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/0203-2poly.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="150">
+              <caret line="14" column="33" lean-forward="true" selection-end-line="42" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0203-3rect.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/0203-3rect.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
               <folding>
                 <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -48,6 +59,7 @@
         <option value="$PROJECT_DIR$/0202-2morelines.html" />
         <option value="$PROJECT_DIR$/0203-1poly.html" />
         <option value="$PROJECT_DIR$/0203-2poly.html" />
+        <option value="$PROJECT_DIR$/0203-3rect.html" />
       </list>
     </option>
   </component>
@@ -113,18 +125,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533111270694</updated>
-      <workItem from="1533111271778" duration="3783000" />
+      <workItem from="1533111271778" duration="4629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3783000" />
+    <option name="totallyTimeSpent" value="4629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="调试" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -132,7 +144,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3303671" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3303671" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -216,8 +228,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/0203-2poly.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="150">
+          <caret line="14" column="33" lean-forward="true" selection-end-line="42" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0203-3rect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
           <folding>
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
