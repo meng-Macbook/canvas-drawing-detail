@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<canvas id="canvas" style="border: 1px solid #aaa;display: block; margin: 50px auto;">
+    当前浏览器不支持Canvas，请更换浏览器再试
+</canvas>
+<script>
+    window.onload = function () {
+        let canvas = document.getElementById("canvas");
+
+        canvas.width = 1200;
+        canvas.height = 800;
+
+        let context = canvas.getContext("2d");
+        // 使用 context 绘制
+
+        let skyStyle = context.createLinearGradient( 0, 0, 0, canvas.height);
+        skyStyle.addColorStop(0.0, 'black');
+        skyStyle.addColorStop(1.0, '#035');
+        context.fillStyle = skyStyle;
+        context.fillRect( 0, 0, canvas.width, canvas.height );
+
+        for (let i = 0; i < 200; i++) {
+            let r = Math.random() * 3 + 3;
+            let x = Math.random() * canvas.width;
+            let y = Math.random() * canvas.height * 0.65;
+            let a = Math.random() * 360;
+            drawStar( context, x, y, r, a);
+        }
+    }
+
+    function drawStar( cxt, x, y, r,  rot ) {
+        cxt.save();
+
+        cxt.translate( x, y);
+        cxt.rotate( rot / 180 * Math.PI );
+        cxt.scale( r, r);
+
+        starPath(cxt);
+
+        cxt.fillStyle = "#fb3";
+        // cxt.strokeStyle = "#fd5";
+        // cxt.lineWidth = 3;
+        // cxt.lineJoin = "round";
+
+        cxt.fill();
+        // cxt.stroke();
+
+        cxt.restore();
+    }
+
+    function starPath(cxt) {
+        cxt.beginPath();
+        for(let i = 0; i < 5; i++) {
+            cxt.lineTo(Math.cos((18 + i * 72)/180 * Math.PI)  * 2, -Math.sin((18 + i * 72)/180 * Math.PI) * 2);
+            cxt.lineTo(Math.cos((54 + i * 72)/180 * Math.PI), -Math.sin((54 + i * 72)/180 * Math.PI));
+        }
+    }
+
+
+
+</script>
+</body>
+</html>
