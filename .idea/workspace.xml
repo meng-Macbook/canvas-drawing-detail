@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb81965b-9f84-47c7-a5d8-cd16ed9305f0" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/0502-1radialGrad.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0502-2stars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0503-1bricks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0503-2cavas-back.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,23 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="0501-2stars.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/0501-2stars.html">
+      <file leaf-file-name="0503-2cavas-back.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/0503-2cavas-back.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="0502-2stars.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/0502-2stars.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+            <state relative-caret-position="226">
+              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -86,6 +74,8 @@
         <option value="$PROJECT_DIR$/0501-2stars.html" />
         <option value="$PROJECT_DIR$/0502-1radialGrad.html" />
         <option value="$PROJECT_DIR$/0502-2stars.html" />
+        <option value="$PROJECT_DIR$/0503-1bricks.html" />
+        <option value="$PROJECT_DIR$/0503-2cavas-back.html" />
       </list>
     </option>
   </component>
@@ -176,12 +166,12 @@
       <option name="presentableId" value="Default" />
       <updated>1533111270694</updated>
       <workItem from="1533111271778" duration="6363000" />
-      <workItem from="1533172569206" duration="11878000" />
+      <workItem from="1533172569206" duration="12927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18241000" />
+    <option name="totallyTimeSpent" value="19290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -340,16 +330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0401-1stars.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="42" column="70" lean-forward="true" selection-start-line="42" selection-start-column="70" selection-end-line="42" selection-end-column="70" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0302-1star.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -427,20 +407,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0501-2stars.html">
+    <entry file="file://$PROJECT_DIR$/0503-1bricks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="397">
+          <caret line="26" column="72" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0502-2stars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0401-1stars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0502-2stars.html">
+    <entry file="file://$PROJECT_DIR$/0501-2stars.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        <state relative-caret-position="285">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="65" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0503-2cavas-back.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
         </state>
       </provider>
     </entry>
