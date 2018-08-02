@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<canvas id="canvas" style="border: 1px solid #aaa;display: block; margin: 50px auto;">
+    当前浏览器不支持Canvas，请更换浏览器再试
+</canvas>
+<script>
+    window.onload = function () {
+        let canvas = document.getElementById("canvas");
+
+        canvas.width = 1024;
+        canvas.height = 768;
+
+        let context = canvas.getContext("2d");
+        // 使用 context 绘制
+
+        context.lineWidth = 5;
+        context.strokeStyle = "#005588";
+        for(let i = 0; i < 10; i++) {
+            context.beginPath();
+            context.arc( 50 + i * 100, 60, 40, 0, 2 * Math.PI * (i+1)/10 );
+
+            context.stroke();
+        }
+
+        for(let i = 0; i < 10; i++) {
+            context.beginPath();
+            context.arc( 50 + i * 100, 180  , 40, 0, 2 * Math.PI * (i+1)/10 );
+            context.closePath();
+
+            context.stroke();
+        }
+
+        for(let i = 0; i < 10; i++) {
+            context.beginPath();
+            context.arc( 50 + i * 100, 300  , 40, 0, 2 * Math.PI * (i+1)/10, true );
+            context.closePath();
+
+            context.stroke();
+        }
+
+        for(let i = 0; i < 10; i++) {
+            context.beginPath();
+            context.arc( 50 + i * 100, 400  , 40, 0, 2 * Math.PI * (i+1)/10, true );
+
+            context.stroke();
+        }
+
+        context.fillStyle = "#005588";
+        for(let i = 0; i < 10; i++) {
+            context.beginPath();
+            context.arc( 50 + i * 100, 540  , 40, 0, 2 * Math.PI * (i+1)/10);
+            context.closePath();
+
+            context.fill();
+            context.stroke();
+        }
+
+
+
+        for(let i = 0; i < 10; i++) {
+            context.beginPath();
+            context.arc( 50 + i * 100, 660  , 40, 0, 2 * Math.PI * (i+1)/10, true );
+
+            context.fill();
+            context.stroke();
+        }
+
+
+
+
+    }
+
+
+</script>
+</body>
+</html>
